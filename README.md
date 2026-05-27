@@ -21,6 +21,7 @@ En este proyecto se practican operaciones sobre listas utilizando `fold`, tales 
 
 ```wollok
 const numeros = [1, 2, 3, 4]
+```
 
 ## Autor
 
@@ -29,3 +30,4 @@ const numeros = [1, 2, 3, 4]
 ## Finalidad
 
 Este repositorio fue realizado con fines didácticos, como práctica del uso de `fold` en Wollok y del trabajo con colecciones.
+
