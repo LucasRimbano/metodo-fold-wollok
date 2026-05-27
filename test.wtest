@@ -1,0 +1,61 @@
+import fold.*
+describe "Lista" {
+
+  test "sumar una lista de numeros" {
+    const unaLista = new Lista()
+
+    assert.equals(10, unaLista.sumar())
+  }
+
+  test "mulplicar una lista de numereros"{
+
+  const unalistamulti = new Lista()
+
+  assert.equals(24, unalistamulti.multiplicar())
+  
+  }
+
+  test "encontrar el maximo en la lista" {
+
+    const maximo = new Lista()
+
+    assert.equals(4,maximo.encontrarMax())
+  }
+
+  test "invertir los elementos de la lista"{
+    const invertirelementos = new Lista()
+
+    assert.equals([4,3,2,1],invertirelementos.invertirLista())
+
+  }
+
+  test "Mostrar tiple de cada numero de la lista"{
+
+    const listatriplicada = new Lista()
+
+    assert.equals([3, 6, 9, 12], listatriplicada.Triplecadalista())
+
+
+  }
+
+  test "Multiplo de 5" {
+    const multiplodecinco = new Lista()
+
+    assert.equals([], multiplodecinco.SolomultiplodeCinco())
+  }
+
+
+ 
+  test "hay algun multiplo de 2" {
+    const unaLista = new Lista()
+
+   assert.equals(true, unaLista.hayAlgunMultiploDeDos())
+  }
+
+  test "aplanar una lista de listas" {
+      const unaListaaplanada = new Lista()
+
+      assert.equals([1, 2, 3, 4, 5], unaListaaplanada.aplanarLista())
+  }
+}
+
